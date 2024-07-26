@@ -31,7 +31,7 @@ git commit -m "Bump version to $NEW_VERSION"
 git tag "v$NEW_VERSION"
 
 # Push changes and tags
-git push origin main --tags
+git push --tags
 
 # Publish to npm
 npm publish
